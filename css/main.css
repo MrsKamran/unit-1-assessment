@@ -1,0 +1,50 @@
+body {
+    display: flex;  
+    justify-content: center;  
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#calculator { 
+    height: 300px;
+    width: 400px;
+    display: flex;  
+    align-items: center;  
+    flex-direction: column;
+}
+
+.three-columns {
+    display: flex-inline;  
+    justify-content: center;  
+    align-items: center;  
+    position: relative;
+}
+
+.buttons:hover {
+    background-color: gray;
+    color: white;
+}
+
+.buttons {
+  font-size: 40px;
+  padding: 20px;
+  width: 90px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+  color: gray;
+  border: gray 2px solid;
+}
+
+#number-input {
+    font-size: 40px;
+    padding: 20px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: gray 4px solid;
+}
