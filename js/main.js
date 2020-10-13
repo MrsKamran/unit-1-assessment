@@ -22,5 +22,11 @@ function doSubtraction(){
 
 function displayResult(){
     showResult.innerText = result;
+    if(result<0){
+        showResult.style.color = "red";
+     }
+     else{
+        showResult.style.color = "black";
+     }
 }
 
