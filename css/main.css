@@ -1,6 +1,7 @@
 body {
     display: flex;  
     justify-content: center;  
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -45,6 +46,5 @@ h1 {
     width: 100px;
     border-radius: 10px;
     text-align: center;
-    font-weight: bold;
     border: gray 4px solid;
 }
